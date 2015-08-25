@@ -9,7 +9,7 @@ You don’t realize how well, or in my case how terrible your eating habits are 
 
 
 
-![](/assets/img/info-graphic-ridick.jpg)
+![](assets/img/info-graphic-ridick.jpg)
 
 
 
@@ -21,7 +21,7 @@ I spent the first month focused around measurement. All of these numbers don’t
 
 
 <h2>Daily Tracker - Tab 1</h2>
-![](/assets/img/tab-1-health-tracker-screenshot2.jpg)
+![](assets/img/tab-1-health-tracker-screenshot2.jpg)
 <br>
 <br>
 
@@ -58,7 +58,7 @@ I spent the first month focused around measurement including adding and removing
 <br>
 
 <h2>Tracking Your Body And Mind</h2>
-![](/assets/img/tab-1-health-tracker-screenshot-body-mind.jpg)
+![](assets/img/tab-1-health-tracker-screenshot-body-mind.jpg)
 
 In addition to tracking my eating habits, I introduced columns to track my body, mind, and overall happiness. Within the spreadsheet i’ve included some further details on how I track certain areas but I believe it’s pretty self explanatory:
 
@@ -86,7 +86,7 @@ I’ve been experimenting with a daily score total but still needs work. I’ve 
 
 <p><h2>Goals and Trends - Tab 2</p></h2>
 
-![](/assets/img/tab-2-KPI-dashboard-screenshot.jpg)
+![](assets/img/tab-2-KPI-dashboard-screenshot.jpg)
 
 This is my health KPI (Key Performance Indicators) where I set goals and monitor my progress from 40k feet. I find this shit mind blowing. I can view how many gym sessions i’ve had in the last 30 days, how many beers i’ve had, average number of hours slept per day over the last 30 days, number of vegetables i’ve had, etc..
 
@@ -95,7 +95,7 @@ First step is to add your weekly goals. The first few weeks you wont have much i
 <br>
 
 <h2>My Weekly Goals - Tab 3</h2>
-![](/assets/img/tab3-weekly-goals-screenshot.jpg)
+![](assets/img/tab3-weekly-goals-screenshot.jpg)
 
 This is where I list my top 10 goals and display my weekly progress. I’ve added conditional formatting for the words yes and no, but this is great for creating an overall goal and breaking them down into actionable items. This isn’t for everyone, but thought i’d include it too. 
 

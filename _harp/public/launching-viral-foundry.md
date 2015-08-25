@@ -9,4 +9,4 @@ More details on our first product to follow shortly.
 
 Check out the new website - <a href="http://viralfoundry.com">viralfoundry.com</a>
 
-<a href="http://viralfoundry.com"><img src="/assets/img/viral-foundry-big.jpg"></a>
+<a href="http://viralfoundry.com"><img src="assets/img/viral-foundry-big.jpg"></a>

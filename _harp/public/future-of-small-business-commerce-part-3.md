@@ -6,7 +6,7 @@ Here are the final thoughts on signals i've noticed and things your business mig
 
 <!-- more --> 
 
-![](/assets/img/commerce-smb-3.jpg)
+![](assets/img/commerce-smb-3.jpg)
 
 
 <b>Packaging Innovation + Environmental Impact</b><br>

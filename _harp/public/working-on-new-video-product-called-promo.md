@@ -9,4 +9,4 @@ Our goal is make it incredibly easy for anyone to launch a promotion on the inte
 
 Register to get notified of our launch - <a href="http://promo.co">Promo</a>
 
-<img src="/assets/img/promo-big-logo.jpg">
+<img src="assets/img/promo-big-logo.jpg">

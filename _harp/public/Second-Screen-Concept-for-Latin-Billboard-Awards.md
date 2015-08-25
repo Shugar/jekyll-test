@@ -10,7 +10,7 @@ Last year I was working on a Second Screen Platform to deliver synchronized cont
 
 <!-- more -->
 
-![](/assets/img/latin-billboard-second-screen-concept.png)
+![](assets/img/latin-billboard-second-screen-concept.png)
 
 
 <p><h3>What the hell is a second screen, and what’s second screen content?</h3>

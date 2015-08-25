@@ -2,17 +2,17 @@ I was inspired by usethis.com and a few conversations with friends to write a po
 
 <!-- more -->
 
-![](/assets/img/uploads/2012/09/1password-make-kenny-save-time.jpg)
+![](assets/img/uploads/2012/09/1password-make-kenny-save-time.jpg)
 
 <strong>1Password</strong> – https://agilebits.com/onepassword
 I constantly register for beta products/startup lists. I never use the same password for any 2 sites/services and can never remember passwords. These password resets are extremely annoying, waste 15-20 minutes per day, and clutter the inbox. 1password is a bit pricey, but after 1 week of use you’ll have made your money back in free time. I use both the desktop client on my mac, and the iOs application. The mac desktop client is $49.99 and the iOs client is $9.99. If you search the internet you can find discount codes or hold out for special promotions from agile bits (makers of 1password). You can sync the desktop and mobile clients via dropbox or wifi. I love visiting an old site and not even attempting to remember the password.. I just auto complete 1password. If you use/demo one app from this blog post, it should be this one. Agile bits also have a free 30 day trial. Go try it out. There are a number of other password tools, but this one works really well for me.
 
-![](/assets/img/uploads/2012/09/readlate-make-kenny-not-get-distracted.jpg)
+![](assets/img/uploads/2012/09/readlate-make-kenny-not-get-distracted.jpg)
 <strong>Read Later</strong> – http://getpocket.com
 Noise. How many tabs do you have open in your browser right this second??? How many tabs are items you want to read, but just not right now because you’re in the middle of something. That reminds you.. why are you reading this post? Shouldn’t you be maximizing your time completing x or y? I was suffering from this exact problem and read later helped me focus by simply adding links to read at a later time. They have a browser plugin, twitter plugin, and mobile application. So if friends send interesting articles via social networks, email, or im, I can quickly save those to my read later list and continue with whatever task i’m working on. Not only that, my computer runs faster and my browser is less cluttered (I used to have 3-4 browser windows open with 10-20 tabs of content.. shameful). I try to reserve 8am-6pm with getting sh#t done, and accessing my ‘read later’ list during downtime (in transit, waiting for coffee, while watching tv, saturday morning while watching EPL). Best part about this application.. it’s free!!
 
 
-![](/assets/img/uploads/2012/09/things-app-make-kenny-productive.jpg)
+![](assets/img/uploads/2012/09/things-app-make-kenny-productive.jpg)
 <strong>Things</strong> – http://culturedcode.com/things/
 
 Things is a delightful and easy to use task manager. I use this application to enter and organize all of my to-dos. I use the desktop client and the iOs app to organize and jot down any task, small or large. When I think of a task I need to complete, I quickly add the task and revisit at the end of the day to ensure it has been tagged properly and marked with an appropriate due date. This is a paid application but combining read later and things, I have increased my productivity 10x.

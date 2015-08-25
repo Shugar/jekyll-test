@@ -4,7 +4,7 @@ This is a follow-on blog post that covers some predictions on the future of smal
 Here are 6 trends that you, and your business should consider:
 <!-- more --> 
 
-![](/assets/img/local-commerce-part-2.jpg)
+![](assets/img/local-commerce-part-2.jpg)
 
 <b>User Generated Content = Gold</b><br>
 Continue to see more brands and businesses leveraging social media to advertise and showcase products (integrate consumer generated photos and videos into your ecommerce and review pages).

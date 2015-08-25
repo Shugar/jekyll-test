@@ -7,7 +7,7 @@ Fast forward 20 years and consumers no longer bat an eyelid placing their credit
 <!-- more -->
 
 
-<style>.embed-container {position: relative; padding-bottom: 100%; padding-top: 10px; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><img src="/assets/img/future-of-small-biz-commerce.jpg"></div>
+<style>.embed-container {position: relative; padding-bottom: 100%; padding-top: 10px; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><img src="assets/img/future-of-small-biz-commerce.jpg"></div>
 
 
 It’s an obvious transition that’s turning the offline shopping world upside down. Experts have called this for years, but it’s finally become a reality, as both small business owners and big box outlets are forced to close doors because of showrooming and online competition. 

@@ -22,5 +22,5 @@ The actual statistics reported are questionable, but it does complete the overal
 
 As I hit publish, I’m on a 27 day streak and 300 points short of my goal. Heading out to earn some more points… It works.
 
-![](/assets/img/nikefuelband-300goal.png)
+![](assets/img/nikefuelband-300goal.png)
 
