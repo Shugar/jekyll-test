@@ -1,0 +1,241 @@
+@import "_variables.less";
+@import (less) "_fonts.css";
+@import (less) "_typeplate.css";
+@import (less) "_container.css";
+@import "_footer.less";
+
+html {
+  font-size: 14px;
+  @media (min-width: @screen-phone) {
+    font-size: 16px;
+  }
+  @media (min-width: @screen-tablet) {
+    font-size: 18px;
+  }
+}
+body {
+  color: #666;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+a {
+  color: @link-color;
+  text-decoration: none;
+  &:hover {
+    color: darken(@link-color, 10%);
+  }
+  &:visited {
+    color: darken(@link-color, 20%);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+code, pre {
+  padding: 0 3px 2px;
+  color: #333;
+}
+
+code {
+  padding: 2px 4px;
+  color: #B90000;
+  background-color: #f4f4f4;
+  white-space: nowrap;
+}
+
+pre {
+  display: block;
+  padding: 1.5em;
+  margin: 0 0 1.5em;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f4f4f4;
+  code {
+    padding: 0;
+    color: inherit;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+blockquote {
+  margin: 0 5em 1.5em 0;
+}
+
+hr {
+  border: none;
+  background: none;
+  border-bottom: #CCC solid 1px;
+  margin: 1.5em 0;
+}
+
+.text-muted {
+  color: #CCC;
+  display: block;
+}
+
+header[aria-role="banner"] {
+  background: #f4f4f4 url("../img/header-background-0.jpg") no-repeat;
+  background-size: cover;
+  padding: 2rem 0;
+}
+article[aria-role="main"] {
+  background: #fff;
+}
+
+
+input {
+    width: 252px;
+    height: 32px;
+    font-size: 18px;
+    background-color: #3c3c3c;
+    border: none;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+input.button {
+  background-color: #008eab;
+}
+
+a.page-title,
+.page-intro {
+  color: #fff;
+}
+a.page-title {
+  .mega();
+  font-weight: bold;
+  display: block;
+  &:hover {
+    color: fade(#fff, 80%);
+  }
+}
+.page-intro {
+  .epsilon();
+  margin-bottom: 0;
+}
+a.page-back {
+  display: block;
+  font-size: 18px;
+  margin: 2rem 2rem 0 2rem;
+  color: #ccc;
+  &:hover {
+    color: #e37b41;
+  }
+  &:after {
+    content: " Home";
+  }
+  @media (min-width: @screen-desktop) {
+    font-size: 24px;
+    margin: 0;
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 3;
+    color: #fff;
+    background: #f0f0f0;
+    -webkit-transition: background .2s ease;
+    -moz-transition: background .2s ease;
+    transition: background .2s ease;
+    &:hover {
+      text-decoration: none;
+      background: #e37b41;
+      color: #fff;
+    }
+    &:after {
+      display: none;
+      content: "";
+    }
+  }
+}
+
+.posts {
+  .post {
+    margin: 0 0 4rem;
+  }
+}
+
+.post {
+  > h2 {
+    .gamma();
+    font-size: 1.2rem;
+  }
+  > h2,
+  > h1 {
+    a {
+      color: #333;
+      display: inline-block;
+      &:hover {
+        color: #00AACC;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    border: solid #f9f9f9 10px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+.post-featured-image {
+  margin: 1.5em -1rem;
+  img {
+    width: 100%;
+    margin: 0;
+    display: inline;
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: @screen-tablet) {
+  body.page-home {
+    padding-top: 428px; // Height of the header so we can get the static when you scroll down
+    header[aria-role="banner"] {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 0;
+    }
+    article[aria-role="main"] {
+      min-height: 720px; // This ensures that the main area completely covers the static header when you scroll down
+      padding-top: 2rem;
+    }
+    article[aria-role="main"],
+    article[aria-role="contentinfo"] {
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+
+
+
+
+.post-last{
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.post-last > span {
+  display: block;
+  font-weight: normal;
+  color: #3a3a3a;
+}

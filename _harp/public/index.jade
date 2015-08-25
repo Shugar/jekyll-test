@@ -1,0 +1,25 @@
+- findImageRegex = /\<img\ src=\"([\w\/\.\:\-]*)\"/;
+- count = 0;
+- function excerpt(markup) {
+-   return markup.split("<!-- more -->")[0];
+- }
+- function has_featured_image(markup) {
+-   var matches = markup.match(findImageRegex);
+-   return matches && matches.length >= 2;
+- }
+- function featured_image(markup) {
+-   var matches = markup.match(findImageRegex);
+-   return matches[1];
+- }
+.posts
+  each page, slug in public._data
+    if (page.type === "post" && ++count <= posts_limit)
+      .post
+        h2: a(href="/#{ slug }") !{ page.title }
+        span.text-muted !{ page.date }
+        - var post_content = partial(slug);
+        if has_featured_image(post_content)
+          .post-featured-image: a(href="/#{ slug }")
+            img(src="#{ featured_image(post_content) }")
+        |!{ excerpt(post_content) }
+        div.post-more: a(href="/#{ slug }") Read more

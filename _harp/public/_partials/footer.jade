@@ -1,0 +1,43 @@
+footer(aria-role="contentinfo")
+  .container
+    div#section-container
+      section
+        div.section-title 
+          | Kenny Grant
+        ul
+          li 
+            a(href="http://kennygrant.ca") About
+          li 
+            a(href="http://kennygrant.ca/#contact") Contact
+          li 
+            a(href="#") Experiments
+          li 
+            a(href="/reading") Reading
+          li 
+            a(href="/hire-me") Hire Me
+          li 
+            a(href="/archive") Archive
+      section
+        div.section-title
+          | Stay Connected
+        ul
+          li
+            != partial("social/twitter")
+          li 
+            != partial("social/facebook")
+          li
+            != partial("social/angel")
+          li
+            != partial("social/instagram")
+          li 
+            a(href="https://plus.google.com/+KennyGrant?rel=author") Google
+      section
+        div.section-title 
+          | Subscribe For New Updates
+        != partial("subscribe/mailchimp")
+        p.help-block Your email is totally safe, promise.
+  div#powered-by-container
+    .container
+      section
+        | Powered by Little Monkey
+!= partial("analytics")

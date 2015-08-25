@@ -1,0 +1,10 @@
+.archive
+  h2 Posts archive
+  br
+  .posts
+    each page, slug in public._data
+      if (page.type === "post")
+        h4
+          a(href="/#{ slug }") !{ page.title }
+          br
+          small.text-muted !{ page.date }

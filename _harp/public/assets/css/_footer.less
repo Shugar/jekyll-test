@@ -1,0 +1,129 @@
+@import "_variables.less";
+@import (less) "_container.css";
+
+footer[aria-role="contentinfo"] {
+  float: left;
+  position: relative;
+  z-index: 1;
+  background: #333;
+  color: #fff;
+  width: 100%;
+
+  a {
+    color: #FFF;
+    &:hover {
+      color: #008EAB;
+    }
+  }
+
+  /* The container that contains the footer columns */
+  #section-container {
+    float: left;
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    /* Mobile-first footer section */
+    section {
+      float: left;
+      width: 100%;
+      font-size: 16px;
+      font-style: normal;
+
+      ul {
+       margin: 0;
+       padding: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      .section-title {
+        font-style: normal;
+        font-size: 19px;
+        margin-bottom: 12px;
+      }
+    }
+
+    /* A margin for every footer section except the first */
+    section:nth-of-type(n+2) {
+      margin-top: 18px;
+    }
+
+    /* Customization for tablet and bigger */
+    @media (min-width: @screen-tablet) {
+      section {
+        float: left;
+        width: 33%;
+        font-size: 16px;
+        font-style: normal;
+      }
+
+      /* Disable any margins for every footer section except the first */
+      section:nth-of-type(n+2) {
+        margin-top: 0;
+      }
+    }
+  }
+
+/* The container that contains the footer element signifying 
+   technology used to build the blog 
+*/
+  #powered-by-container {
+    float: left;
+    background-color: #464646;
+    width: 100%;
+
+    section {
+      line-height: 25px;
+      width: 100%;
+      text-align: right;
+      color: #fff;
+      font-size: 19px;
+    }
+  }
+}
+
+/* Global misc styling for form elements */
+
+.help-block {
+  margin-top: 10px;
+  display: block;
+  font-size: 12px;
+}
+
+/* Borrowed from Twitter Boostrap for screen-reader enabled fields without legends */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+/* Italicized placeholder for input form elements */
+/* WebKit browsers */
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+    font-style: italic;
+}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+    font-style: italic;
+}
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+    font-style: italic;
+}
+
+/* Facebook follow button alignment */
+.fb-follow {
+  vertical-align: middle;
+}

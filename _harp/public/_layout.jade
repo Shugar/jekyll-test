@@ -1,0 +1,24 @@
+doctype
+html(lang="en")
+  head
+    != partial("_partials/head")
+  body
+    a.page-back(href="/") &larr;
+    article(aria-role="main")
+      .container
+        .post
+          h1!= title
+          span.text-muted!= date
+          != yield
+        if enable_comments
+          h3!= comment_cta||"What are your thoughts?"
+          #disqus_thread
+          script.
+            var disqus_shortname = "#{ disqus_shortname }";
+            (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+    if !exclude_footer
+      != partial("_partials/footer")

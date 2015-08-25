@@ -1,0 +1,169 @@
+{
+  "index": {
+    "layout": "_index_layout"
+  },
+  "404": {
+    "layout": "_index_layout"
+  },
+  "sitemap": {
+    "layout": "_index_layout",
+    "exclude_footer": true,
+    "enable_comments": false
+  },
+  "hire-me": {
+   "layout": "_layout",
+   "page_description": "Get in touch with Kenny Grant for consulting around the following services: marketing, growth, product development, and strategy.",
+   "title": "Hire Kenny Grant",
+   "enable_comments": false
+  },
+  "reading": {
+   "type": "page",
+   "layout": "_layout",
+   "page_description": "Books i'm currently reading..",
+   "title": "Kenny is reading..",
+   "enable_comments": false
+  },
+  "wheels-up": {
+    "type": "post",
+    "page_description": "Last Thursday (August 4, 2015) I booked a one way ticket to Split, Croatia. These keystrokes come to you from 36k feet above the friendly skies of Austria.",
+    "title": "Wheels Up",
+    "date": "August 17, 2015",
+    "comment_cta": "Thoughts? Where should I work/travel to next?"
+  },
+  "my-personal-health-tracker-template": {
+    "type": "post",
+    "page_description": "Are you healthy? What’s your greens and fruit count today? How about for the week? Do you maintain a healthy diet that includes ample exercise and sleep?",
+    "title": "My Personal Health Tracker Template",
+    "date": "February 10, 2015",
+    "comment_cta": "Comments"
+  },
+  "halfway": {
+    "type": "post",
+    "page_description": "With summer officially here and July around the corner, we’re at the half way point of 2014. A great time to reflect and determine if on track.",
+    "title": "Half Way",
+    "date": "June 26, 2014",
+    "comment_cta": "Thoughts?"
+  },
+  "Should-I-Target-Audiences-Earlier-in-the-Buying-Process": {
+    "type": "post",
+    "page_description": "I’ve been contemplating this topic over the last few months as it relates to startups, small business, mobile apps, growth marketing, and the continuos rise of online competition.",
+    "title": "Should I Target Audiences Earlier in the Buying Process",
+    "date": "June 11, 2014",
+    "comment_cta": "Are you investing more marketing resources into capturing potential customers earlier in the buying process?"
+  },
+  "future-of-small-business-commerce-part-3": {
+    "type": "post",
+    "page_description": "final installment of a series of blog posts that cover some predictions for local commerce for small business.",
+    "title": "Future of Small Business Commerce (Part 3)",
+    "date": "May 9, 2014",
+    "comment_cta": "Where do you see the future?"
+  },
+  "future-of-small-business-commerce-part-2": {
+    "type": "post",
+    "page_description": "Part 2 that covers what (I think) the future of small business commerce looks like",
+    "title": "Future of Small Business Commerce (Part 2)",
+    "date": "April 30, 2014",
+    "comment_cta": "Do you have any feedback?"
+  },
+  "future-of-small-business-commerce": {
+    "type": "post",
+    "page_description": "What does the future of small business commerce look like?",
+    "title": "Future of Small Business Commerce (Part 1)",
+    "date": "April 29, 2014",
+    "comment_cta": "Do you agree or see things differently??"
+  },
+  "really-small-businesses": {
+    "type": "post",
+    "page_description": "Really Small Businesses Lack the business tools to succeed",
+    "title": "Really Small Businesses",
+    "date": "April 17, 2014",
+    "comment_cta": "Do you think Small Businesses have the proper tools to succeed?"
+  },
+  "keeping-sane-building-startup": {
+    "type": "post",
+    "page_description": "Over the last 8 weeks i've been building my startup from home",
+    "title": "Keeping sane building a startup..",
+    "date": "March 20, 2014",
+    "comment_cta": "What tips do you have?"
+  },
+  "5-beefs-with-secret": {
+    "type": "post",
+    "page_description": "5 Beefs With Secret",
+    "title": "5 Beefs With Secret",
+    "date": "March 14, 2014",
+    "comment_cta": "What do you think about Secret?"
+  },
+  "setting-goals-for-2014": {
+    "type": "post",
+    "page_description": "random goals for 2014",
+    "title": "Setting Goals For 2014",
+    "date": "January 5, 2014",
+    "comment_cta": "What are your goals this year?"
+  },
+  "favorite-photos-2013": {
+    "type": "post",
+    "title": "My favorite photos from 2013",
+    "date": "January 13, 2014",
+    "comment_cta": "What do you think?"
+  },
+  "relaunching-homeless-partners": {
+    "type": "post",
+    "title": "Relaunching Homeless Partners",
+    "date": "Dec 5, 2013",
+    "comment_cta": "What do you think of the new website?"
+  },
+  "working-on-new-video-product-called-promo": {
+    "type": "post",
+    "title": "Working On New Video Based Product Called Promo",
+    "date": "Aug 14, 2013",
+    "comment_cta": "What do you think of the name Promo?"
+  },
+  "launching-viral-foundry": {
+    "type": "post",
+    "title": "Launching Viral Foundry",
+    "date": "July 07, 2013",
+    "comment_cta": "Do you know what a foundry is?"
+  },
+  "unbounce-wish-list": {
+    "type": "post",
+    "title": "Unbounce Wish List",
+    "date": "May 20, 2013",
+    "comment_cta": "Are there other features I missed??"
+  },
+  "Second-Screen-Concept-for-Latin-Billboard-Awards": {
+    "type": "post",
+    "title": "Second Screen Concept for Latin Billboard Awards",
+    "date": "May 10, 2013",
+    "comment_cta": "How would you modify and improve this concept?"
+  },
+  "nike-fuelband": {
+    "type": "post",
+    "page_description": "Nike FuelBand: my experience with this wrist tracking device",
+    "title": "Nike FuelBand, does it make you more active?",
+    "date": "February 9, 2013",
+    "comment_cta": "Have you tried the Nike FuelBand?"
+  },
+  "favorite-photos-2012": {
+    "type": "post",
+    "title": "My favorite photos from 2012",
+    "date": "January 10, 2013",
+    "comment_cta": "Share your favorite photos"
+  },
+  "vancouver-riots": {
+    "type": "post",
+    "title": "Photos from the Vancouver Canucks & Boston Bruins 2011 Stanley Cup Riot",
+    "date": "January 4, 2013"
+  },
+  "if-only-more-time": {
+    "type": "post",
+    "title": "If only I had more information, time or statistics to make decisions..",
+    "date": "October 18, 2012",
+    "comment_cta": "Have you been there?"
+  },
+  "applications-help-productivity": {
+    "type": "post",
+    "title": "Applications and services that help my productivity",
+    "date": "October 18, 2012",
+    "comment_cta": "What are you using? Is there something I should check out??"
+  }
+}

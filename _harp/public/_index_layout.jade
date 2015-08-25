@@ -1,0 +1,14 @@
+doctype
+html(lang="en")
+  head
+    != partial("_partials/head")
+  body.page-home
+    header(aria-role="banner")
+      .container
+        a.page-title(href="/")!= page_tagline
+        p.page-intro!= page_intro
+    article(aria-role="main")
+      .container
+        != yield
+    if !exclude_footer    
+      != partial("_partials/footer")
