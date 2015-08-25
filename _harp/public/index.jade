@@ -15,7 +15,7 @@
   each page, slug in public._data
     if (page.type === "post" && ++count <= posts_limit)
       .post
-        h2: a(href="/#{ slug }") !{ page.title }
+        h2: a(href="jekyll-test/#{ slug }") !{ page.title }
         span.text-muted !{ page.date }
         - var post_content = partial(slug);
         if has_featured_image(post_content)
