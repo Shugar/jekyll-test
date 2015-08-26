@@ -27,7 +27,7 @@
     "type": "post",
     "page_description": "Last Thursday (August 4, 2015) I booked a one way ticket to Split, Croatia. These keystrokes come to you from 36k feet above the friendly skies of Austria.",
     "title": "Wheels Up",
-    "post_image": "../assets/img/broke-leg-kennyg.jpg",
+    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
     "date": "August 17, 2015",
     "comment_cta": "Thoughts? Where should I work/travel to next?"
   },
@@ -35,6 +35,7 @@
     "type": "post",
     "page_description": "Are you healthy? What’s your greens and fruit count today? How about for the week? Do you maintain a healthy diet that includes ample exercise and sleep?",
     "title": "My Personal Health Tracker Template",
+    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
     "date": "February 10, 2015",
     "comment_cta": "Comments"
   },
