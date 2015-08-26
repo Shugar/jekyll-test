@@ -2,12 +2,18 @@ doctype
 html(lang="en")
   head
     != partial("_partials/head")
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:site" content="@shugar348")
+    meta(name="twitter:creator" content="@shugar348")
+    meta(name="twitter:title" content="#{ title }")
+    meta(name="twitter:description" content="#{ page_description }")
+    meta(name="twitter:image:src" content="#{ post_images }")
   body
     a.page-back(href="/jekyll-test") &larr;
     article(aria-role="main")
       .container
         .post
-          h1!= title
+          h1!= title 
           span.text-muted!= date
           != yield
         if enable_comments

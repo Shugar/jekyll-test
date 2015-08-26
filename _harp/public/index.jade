@@ -20,6 +20,6 @@
         - var post_content = partial(slug);
         if has_featured_image(post_content)
           .post-featured-image: a(href="/#{ slug }")
-            img(src="#{ featured_image(post_content) }")= post_image
+            img(src="#{ featured_image(post_content) }")
         |!{ excerpt(post_content) }
         div.post-more: a(href="/#{ slug }") Read more
