@@ -2,6 +2,11 @@ doctype
 html(lang="en")
   head
     != partial("_partials/head")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@shugar348")
+    meta(name="twitter:creator" content="@shugar348")
+    meta(name="twitter:title" content="#{ page_tagline }")
+    meta(name="twitter:description" content="#{ page_intro }")
   body.page-home
     header(aria-role="banner")
       .container
