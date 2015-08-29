@@ -8,6 +8,7 @@
     "analytics_id": "UA-35715544-1",
     "enable_comments": true,
     "disqus_shortname": "kennyis",
+    "posts_limit": 25,
     "url": "http://kenny.is"
   },
   "domains": ["kenny.is", "www.kenny.is"]
