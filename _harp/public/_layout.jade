@@ -20,9 +20,10 @@ html(lang="en")
         .post
           h1!= title 
           span.text-muted!= date
-          != yield
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="shugar348">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          != yield
+          
         if enable_comments
           h3!= comment_cta||"What are your thoughts?"
           #disqus_thread
