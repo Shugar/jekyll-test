@@ -2,17 +2,17 @@ doctype
 html(lang="en")
   head
     != partial("_partials/head")
-    meta(name="twitter:card" content="summary")
-    meta(name="twitter:site" content="@allbombs")
-    meta(name="twitter:creator" content="@allbombs")
-    meta(name="twitter:image:src" content="#{ page_image }")
-    meta(property="og:image" content="#{ page_image  }")
+    meta(property="og:image" content="http://shugar.github.io/jekyll-test/assets/img/header-background-8.jpg")
     meta(property="og:title" content="#{ page_tagline }")
     meta(property="og:site_name" content="#{ page_tagline }")
     meta(property="og:description" content="#{ page_intro }")
     meta(property="fb:app_id" content="[1458155574513410]")
     meta(property="og:type" content="website")
     meta(property="og:locale" content="en_US")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@allbombs")
+    meta(name="twitter:creator" content="@allbombs")
+    meta(name="twitter:image:src" content="#{ page_image }")
   body.page-home
     header(aria-role="banner")
       .container
