@@ -5,9 +5,14 @@ html(lang="en")
     meta(name="twitter:card" content="summary")
     meta(name="twitter:site" content="@shugar348")
     meta(name="twitter:creator" content="@shugar348")
-    meta(name="twitter:title" content="#{ title }")
-    meta(name="twitter:description" content="#{ page_description }")
-    meta(name="twitter:image:src" content="#{ post_image }")
+    meta(name="og:image" content="#{ post_image }")
+    meta(property="og:title" content="#{ title }")
+    meta(property="og:site_name" content="#{page_tagline}")
+    meta(property="og:description" content="#{ page_description }")
+    meta(property="fb:app_id" content="[1458155574513410]")
+    meta(property="og:type" content="website")
+    meta(property="og:locale" content="en_US")
+
   body
     a.page-back(href="/jekyll-test") &larr;
     article(aria-role="main")
