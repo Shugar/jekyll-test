@@ -154,34 +154,33 @@
     "page_description": "Nike FuelBand: my experience with this wrist tracking device",
     "title": "Nike FuelBand, does it make you more active?",
     "date": "February 9, 2013",
-    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
+    "post_image": "http://images.freshnessmag.com/wp-content/uploads//2012/01/nike-plus-fuel-band-03.jpg",
     "comment_cta": "Have you tried the Nike FuelBand?"
   },
   "favorite-photos-2012": {
     "type": "post",
     "title": "My favorite photos from 2012",
     "date": "January 10, 2013",
-    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
+    "post_image": "http://shugar.github.io/jekyll-test/assets/img/uploads/2013/01/feb2012.j.jpg",
     "comment_cta": "Share your favorite photos"
   },
   "vancouver-riots": {
     "type": "post",
     "title": "Photos from the Vancouver Canucks & Boston Bruins 2011 Stanley Cup Riot",
-    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
+    "post_image": "http://shugar.github.io/jekyll-test/assets/img/uploads/2013/01/Game5-Celebration-764x1024.jpg",
     "date": "January 4, 2013"
   },
   "if-only-more-time": {
     "type": "post",
     "title": "If only I had more information, time or statistics to make decisions..",
     "date": "October 18, 2012",
-    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
     "comment_cta": "Have you been there?"
   },
   "applications-help-productivity": {
     "type": "post",
     "title": "Applications and services that help my productivity",
     "date": "October 18, 2012",
-    "post_image": "http://shugar.github.io/jekyll-test/assets/img/infographic-screenshot-last90.jpg",
+    "post_image": "http://shugar.github.io/jekyll-test/assets/img/uploads/2012/09/1password-make-kenny-save-time.jpg",
     "comment_cta": "What are you using? Is there something I should check out??"
   }
 }
