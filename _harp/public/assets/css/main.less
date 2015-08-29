@@ -239,8 +239,18 @@ a.page-back {
   color: #3a3a3a;
 }
 
-.socials {
+
+.socials{
+  display: flex;
+  flex-flow: columm nowrap;
+  justify-content: center;
+}
+.socials-inner {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.socials-inner > .fb-share-button {
+  margin-left: 20px;
 }
